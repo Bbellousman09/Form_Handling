@@ -1,8 +1,10 @@
-h1 {
-    text-align:center ;
-    color: blue;
-}
-
-.Registration_form {
-    color: blue;
-}
+body {  
+    font-family: Arial, sans-serif;  
+    max-width: 400px;  
+    margin: auto;  
+    background-color: blueviolet;  
+}  
+label {  
+    margin-top: 10px;  
+    display: block;  
+}  
