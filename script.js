@@ -1,6 +1,6 @@
 function validateForm() {  
-    const form = document.getElementById('contactForm');  
-    const fields = ['firstName', 'lastName', 'email', 'phone', 'message', 'country', 'date'];  
+    const form = document.getElementById('RegistrationForm');  
+    const fields = ['firstName', 'lastName', 'email', 'phone', 'country', 'date', 'message'];  
     let isValid = true;  
 
     fields.forEach(field => {  

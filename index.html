@@ -8,23 +8,24 @@
 
 </head>
 <body>
+    <img src="Group 326.png" alt="HLS logo">
     <h1>Registration Form</h1>  
-    <form id="contactForm" onsubmit="return validateForm()">  
+    <form id="RegistrationForm" onsubmit="return validateForm()">  
         <label for="firstName">First Name:</label>  
         <input type="text" id="firstName" name="firstName" required><br><br>
 
         <label for="lastName">Last Name:</label>  
-        <input type="text" id="lastName" name="lastName" required> <br><br> 
+        <input type="text" id="lastName" name="lastName" > <br><br> 
 
         <label for="email">Email:</label>  
-        <input type="email" id="email" name="email" required> <br><br> 
+        <input type="email" id="email" name="email" placeholder="bellousman@gmail.com" > <br><br> 
 
         <label for="phone">Phone Number:</label>  
-        <input type="tel" id="phone" name="phone" required> <br><br> 
+        <input type="number" id="phone" name="phone" > <br><br> 
 
         <label for="country">Country:</label>  
-        <select id="country" name="country" required>  
-            <option value="">Select your country</option>  
+        <select id="country" name="country" >  
+            <option value="">Please Select</option>  
             <option value="Nigeria">Nigeria</option>  
             <option value="Egypt">Egypt</option>  
             <option value="Ghana">Ghana</option>  
@@ -32,10 +33,10 @@
         </select>  <br><br>
 
         <label for="date">Date:</label>  
-        <input type="date" id="date" name="date" required>  <br><br>
+        <input type="date" id="date" name="date" >  <br><br>
 
         <label for="message">Message:</label>  
-        <textarea id="message" name="message" required></textarea>  <br><br>
+        <textarea id="message" name="message" ></textarea>  <br><br>
 
         <button type="submit">Submit</button>  
 
