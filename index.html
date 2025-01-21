@@ -1,48 +1,48 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registration form</title>
-    <link rel="stylesheet" href="styles.css">
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Registration Form</title>  
+    <link rel="stylesheet" href="styles.css">  
+</head>  
+<body>  
+    <div class="form-container">   
+        <img src="Group 326.png" alt="HLS logo">  
+        <h1>Registration Form</h1>  
+        <form id="RegistrationForm" onsubmit="return validateForm()">  
+            <label for="firstName">First Name:</label>  
+            <input type="text" id="firstName" name="firstName"><br><br>  
 
-</head>
-<body>
-    <div class="form-container"> 
-    <img src="Group 326.png" alt="HLS logo">
-    <h1>Registration Form</h1>  
-    <form id="RegistrationForm" onsubmit="return validateForm()">  
-        <label for="firstName">First Name:</label>  
-        <input type="text" id="firstName" name="firstName" required><br><br>
+            <label for="lastName">Last Name:</label>  
+            <input type="text" id="lastName" name="lastName"><br><br>   
 
-        <label for="lastName">Last Name:</label>  
-        <input type="text" id="lastName" name="lastName" > <br><br> 
+            <label for="email">Email:</label>  
+            <input type="text" id="email" name="email" placeholder="bellousman@gmail.com"><br><br>   
 
-        <label for="email">Email:</label>  
-        <input type="email" id="email" name="email" placeholder="bellousman@gmail.com" > <br><br> 
+            <label for="phone">Phone Number:</label>  
+            <input type="text" id="phone" name="phone"><br><br>   
 
-        <label for="phone">Phone Number:</label>  
-        <input type="number" id="phone" name="phone" > <br><br> 
+            <label for="country">Country:</label>  
+            <select id="country" name="country">  
+                <option value="">Please Select</option>  
+                <option value="Nigeria">Nigeria</option>  
+                <option value="Egypt">Egypt</option>  
+                <option value="Ghana">Ghana</option>  
+                <option value="South Africa">South Africa</option>   
+            </select><br><br>  
 
-        <label for="country">Country:</label>  
-        <select id="country" name="country" >  
-            <option value="">Please Select</option>  
-            <option value="Nigeria">Nigeria</option>  
-            <option value="Egypt">Egypt</option>  
-            <option value="Ghana">Ghana</option>  
-            <option value="South Africa">South Africa</option>   
-        </select>  <br><br>
+            <label for="date">Date:</label>  
+            <input type="date" id="date" name="date"><br><br>  
 
-        <label for="date">Date:</label>  
-        <input type="date" id="date" name="date" >  <br><br>
+            <label for="message">Message:</label>  
+            <textarea id="message" name="message"></textarea><br><br>  
 
-        <label for="message">Message:</label>  
-        <textarea id="message" name="message" ></textarea>  <br><br>
+           
 
-        <button type="submit">Submit</button>  
-
-    </form>
-    </div>
-    <script src="script.js"></script>
-</body>
+            <button type="submit">Submit</button>  
+        </form>  
+    </div>  
+    <script src="script.js"></script>  
+</body>  
 </html>
